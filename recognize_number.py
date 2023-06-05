@@ -4,7 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 from tensorflow import keras
 from keras.datasets import mnist
 from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
-import trainnumpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
